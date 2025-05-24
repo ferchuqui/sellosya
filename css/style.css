@@ -1,0 +1,121 @@
+/* General Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa; /* Subtle light gray background */
+}
+
+/* Navbar Customization */
+.navbar {
+  background-color: #e3f2fd !important; /* Light blue background for navbar */
+  border-bottom: 1px solid #cce5ff;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar-brand:hover {
+  color: #007bff;
+}
+
+.nav-link {
+    color: #333;
+}
+
+.nav-link.active {
+    font-weight: 500; /* Slightly bolder for active link */
+}
+
+/* Product Card Styling */
+.card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  border: 1px solid #ddd; /* Light border for definition */
+  transition: transform 0.2s ease-in-out; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px; /* Fixed height for consistency */
+  object-fit: cover; /* Ensures image covers the area without distortion */
+}
+
+.card-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Button Styling */
+.btn {
+  border-radius: 0.25rem; /* Standard Bootstrap rounding, can be adjusted */
+  padding: 0.5rem 1rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  opacity: 0.9; /* Slight fade on hover */
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-danger:hover {
+    opacity: 0.9;
+}
+
+.btn-success:hover {
+    opacity: 0.9;
+}
+
+
+/* Page Section/Container Padding */
+/* Applied directly to .container in HTML, but if specific sections need more: */
+.page-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Specific adjustments if needed */
+#productos-seccion .card {
+  margin-bottom: 30px; /* Ensure consistent spacing */
+}
+
+/* Contact Page Specifics */
+#contacto-info {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Cart Page Specifics */
+#cart-items-container .card {
+    margin-bottom: 1rem; /* Spacing between items in cart */
+}
+
+#cart-total {
+    font-weight: bold;
+}
+
+/* Footer Styling (Placeholder if a footer is added later) */
+/*
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 30px;
+}
+*/
